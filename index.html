@@ -5,18 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steph's Portfolio</title>
+
+    <style>
+        dd {
+            font-size: .9em;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Stephanie Bucharelli's Portfolio Project</h1>
 
+    <h3>The Beginning</h3>
+
     <p>In my first week of the coding bootcamp, I put together an
-    <a href="../about-me/README.md"
-       title="Stephanie's About Me"
-       target="blank">About Me</a>
-        markdown file in which I shared a little bit about myself and my background.</p>
+        <a href="../about-me/README.md" title="Stephanie's About Me" target="blank">About Me</a>
+        markdown file <br> in which I shared a little bit about myself and my background.</p>
 
     <p>Please enjoy!</p>
+
+    <h3>Already Making Progress</h3>
+
+    <div>
+        <p>The following is a list of elements/attributes that I've incorporated into this html file: </p>
+
+        <dl>
+            <dt><code>dl</code></dt>
+            <dd>The <code class="term">dl</code> tag allows me to create a definition or description list.
+                It is used to group all <br> the terms within the list together.</dd>
+
+            <dt><code>dt</code></dt>
+            <dd>The <code>dt</code> tag allows for a definition term to be created.
+                Every term that is going to be <br> defined/elaborated on will be enclosed within <code>dt</code> tags.</dd>
+            
+            <dt><code>dd</code></dt>
+            <dd>The <code>dd</code> tag is used to define a term within the list. Each definition within this list
+                will <br> be wrapped in between <code>dd</code> element tags.</dd>
+
+            <dt><code>code</code></dt>
+            <dd>The <code>code</code> tag is how I am displaying the element names to look like "code" without <br>
+                the computer treating them as such. Every term in this list will be enclosed in <code>code</code>
+                <br> element tags.</dd>
+
+            <dt><code>h1</code></dt>
+            <dd>The <code>h1</code> tag is typically used to display the heading for a page. It is the largest
+                section <br> heading of the 6 available sizes (<code>h1</code> through <code>h6</code>)
+                and it generally defines the most <br> important heading. I put the title of this page in 
+                <code>h1</code> tags.</dd>
+
+            <dt><code>h3</code></dt>
+            <dd>The <code>h3</code> tag is used to display a heading that is two levels smaller than an
+                <code>h1</code>. I wrapped <br> my sub-section headings in the <code>h3</code> element tags.
+                I like pairing the <code>h1</code> and <code>h3</code> tags due <br> to the size difference. </dd>
+
+            <dt><code>p</code></dt>
+            <dd>The <code>p</code> tag is used to define paragraphs of text. This is nice to create spacing between
+                <br> the text of the body. I utilized the  <code>p</code> tag in 'The Beginning' section above to 
+                space out <br> my introductory message.</dd>
+
+            <dt><code>a</code></dt>
+            <dd>The <code>a</code> tag, or anchor tag, is what I used to create a link to my About Me markdown file
+                <br> at the beginning of this portfolio page.</dd>
+
+            <dt><code>href</code></dt>
+            <dd>The <code>href</code> tag is an attribute of the anchor tag. I used the <code>href</code>
+                to specifically set up the <br> path to access my About Me file.</dd>
+
+            <dt><code>title</code></dt>
+            <dd>The <code>title</code> tag was utilized twice in this file. The first instance was a form of
+                metadata. <br> It was used in the <code>head</code> section of the html file in order to title 
+                the document itself. This <br> shows up in the tab of the webpage in the browser.
+                The second instance of when I used <br> the <code>title</code> tag was as an attribute of the
+                achor tag. When used as an attribute for the <br> anchor tag, it provides a title for the
+                hyperlink if a mouse is hovering over it.</dd>
+
+            <dt><code>div</code></dt>
+            <dd>The <code>div</code> tag is a block-level element that I used break up the page into to smaller
+                <br> contained sections. Each section that I wanted seperated, I wrapped inside <code>div</code>
+                tags.</dd>
+
+            <dt><code>br</code></dt>
+            <dd>The <code>br</code> tag is an element that causes a line break within text.
+                I used the <code>br</code> tag <br> numerous times throughout this html file in order to push parts of
+                sentences to the next <br> line. As a result, I was able to format the page into a more compact look. 
+                An intersting <br> bit about the <code>br</code> tag is that it is self-closing, therefore, you only need
+                one tag to insert a <br> line break.</dd>
+
+            <dt><code>small</code></dt>
+            <dd>The <code>small</code> tag is used to define text that should be smaller. I gave this a try by 
+                adding a <br> little blurb at the end of the html file stating when I started working on this portfolio.
+                I <br> wrapped it in between <code>small</code> tags so that the text was smaller and not obtrusive
+                since it <br> was a quick origination comment.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <small>Created on June 14, 2020 in VS Code by Stephanie Bucharelli</small>
+    </div>
 
 </body>
 
